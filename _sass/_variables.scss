@@ -69,7 +69,7 @@ $darken-2:          rgba(#000,.125) !default;
 $darken-3:          rgba(#000,.25) !default;
 $darken-4:          rgba(#000,.5) !default;
 
-$theme-color:       #3B5998;
+$theme-color:       $purple;
 $code-color:        $dark-gray;
 $text-color:        $mid-gray;
 $background-color:  white;
@@ -130,7 +130,7 @@ $hljs-type: $dark-blue;
 $hljs-tag: $dark-blue;
 $hljs-attribute: $dark-green;
 $hljs-regexp: $dark-green;
-$hljs-symbol: #3B5998;
+$hljs-symbol: $purple;
 $hljs-built-in: $dark-blue;
 $hljs-preprocessor: $mid-gray;
 $hljs-deletion: $light-pink;
