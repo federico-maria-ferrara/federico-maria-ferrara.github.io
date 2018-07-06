@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Alex Hughes | Social Networks & Health</title>
+  <title>Alex Hughes | a post with code</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/projects/4_socialNetHealth/">
+  <link rel="canonical" href="/blog/2015/code/">
 </head>
 
 
@@ -75,40 +75,37 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Social Networks & Health</h1>
-    <h5 class="post-description"></h5>
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
   </header>
 
-  <article class="post-content Social Networks & Health clearfix">
-    <p>What role do humans’ social network connections play in shaping health
-outcomes? It has been a privilege to be a part of a research team that
-allowed me to leverage my social networks data collection and analysis
-expertise to study questions related to health.</p>
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:</p>
 
-<div class="img_row">
-  <img class="col three" src="/assets/img/village_targeting.png" />
-</div>
+<p>{% highlight c++ %}  <br /> code code code <br /> {% endhighlight %}</p>
 
-<p>In particular, as a part of team led by James H. Fowler and Holly
-Shakya, with important support from other scholars, we addressed
-questions about the <a href="http://fowler.ucsd.edu/social_network_targeting_to_maximise_population_behaviour_change.pdf">flow of information about
-treatment</a>,
-beliefs about the <a href="/assets/pdf/ShakyaHughes.2016.pdf">appropriateness of Intimate Partner
-Violence</a>, and <a href="/assets/pdf/ShakyaStaffordHughes.2017.pdf">maternal and child
-health</a>.</p>
+<p>Produces something like this:</p>
 
-<div class="img_row">
-  <img class="col three" src="/assets/img/oaxaca_wall.png" />
-</div>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-<p>Separately, as a part of a research team working in a high-immigration
-town in Oaxaca, MX, I have been examining how migration and social
-network support shape the prevalence of <a href="/assets/pdf/Meacham.2016.pdf">depression and substance
-abuse</a>.</p>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
 
   </article>
-
-  
 
   
 
