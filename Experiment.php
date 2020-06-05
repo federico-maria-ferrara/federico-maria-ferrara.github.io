@@ -172,4 +172,5 @@ for($p = 1; $p <= $K; $p++){
 }
 // Return the array back to Qualtrics
 print  json_encode($returnarray);
+exit();
 ?>
